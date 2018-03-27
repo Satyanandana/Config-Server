@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: CONFIG-SERVICE
+  cloud:
+    config:
+      server:
+        git:
+          #uri: https://github.com/Satyanandana/ConfigRepo
+          clone-on-start: true
+          uri: E:\Exercises\Java\Spring-Boot-Cloud\ConfigRepo
+  rabbitmq:
+    host: localhost
+    port: 5672
+
+
+
+
+server:
+  port: 8100
+security:
+  user:
+    name: root
+    password: s3cr3t
+
